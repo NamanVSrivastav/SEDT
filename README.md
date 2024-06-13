@@ -31,21 +31,18 @@ This project is a user-friendly encryption tool implemented in Python. It allows
 1.Run the encryption tool:
   python encryption_tool.py
 2.Use the GUI to:
-
-Select the encryption method (Caesar Cipher or AES).
-Enter the text to be encrypted or decrypted.
-For Caesar Cipher, provide the shift value.
-For AES, provide a key (16, 24, or 32 bytes).
-Click "Encrypt" or "Decrypt" to see the result.
-
+   Select the encryption method (Caesar Cipher or AES).
+   Enter the text to be encrypted or decrypted.
+   For Caesar Cipher, provide the shift value.
+   For AES, provide a key (16, 24, or 32 bytes).
+   Click "Encrypt" or "Decrypt" to see the result.
 ##Code Overview
 ##Caesar Cipher Functions
-caesar_encrypt(plaintext, shift): Encrypts the plaintext using the Caesar Cipher method.
-caesar_decrypt(ciphertext, shift): Decrypts the ciphertext using the Caesar Cipher method.
+   caesar_encrypt(plaintext, shift): Encrypts the plaintext using the Caesar Cipher method.
+   caesar_decrypt(ciphertext, shift): Decrypts the ciphertext using the Caesar Cipher method.
 ##AES Functions
-aes_encrypt(plaintext, key): Encrypts the plaintext using AES encryption.
-aes_decrypt(ciphertext, key): Decrypts the ciphertext using AES decryption.
+   aes_encrypt(plaintext, key): Encrypts the plaintext using AES encryption.
+   aes_decrypt(ciphertext, key): Decrypts the ciphertext using AES decryption.
 ##GUI Implementation
-EncryptionApp: A class that creates the Tkinter-based GUI for the encryption tool. It handles user inputs, displays results, and integrates the encryption and decryption functions.
-
+   EncryptionApp: A class that creates the Tkinter-based GUI for the encryption tool. It handles user inputs, displays results, and integrates the encryption and decryption functions.
 
